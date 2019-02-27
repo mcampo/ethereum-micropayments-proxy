@@ -1,0 +1,17 @@
+{
+  "name": "contracts",
+  "version": "0.1.0",
+  "description": "Contracts",
+  "scripts": {
+    "test": "truffle test --network test",
+    "truffle:compile": "truffle compile",
+    "truffle:migrate": "truffle migrate",
+    "truffle:deploy": "truffle deploy"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "openzeppelin-solidity": "^2.0.0",
+    "truffle": "^4.1.11",
+    "web3": "^1.0.0-beta.36"
+  }
+}
